@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/picCard"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="0dp"
+        android:elevation="0dp"
+        android:layout_margin="7dp">
+        <ImageView
+            android:id="@+id/editPic"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        app:layout_constraintRight_toRightOf="@id/picCard"
+        app:layout_constraintTop_toTopOf="@id/picCard"
+        android:id="@+id/delPic"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/cancle"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

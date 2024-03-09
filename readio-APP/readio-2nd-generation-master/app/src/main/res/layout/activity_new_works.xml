@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/another_white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/another_white"
+        android:orientation="vertical"
+        tools:context=".userPageActivity.newWorksActivity">
+
+        <LinearLayout
+            android:id="@+id/NewWork_titleBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@color/blue"
+            android:elevation="3dp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="#0078B5C6"
+                android:scaleType="fitEnd"
+                android:src="@drawable/happy_smile_tongue_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="-35dp"
+                android:fontFamily="@font/miao"
+                android:gravity="center"
+                android:letterSpacing="0.3"
+                android:text="创建新作品"
+                android:textColor="@color/title"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/serialName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:fontFamily="@font/miao"
+            android:hint="请输入系列名"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/pale_grey"
+            android:textStyle="italic" />
+
+        <ListView
+            android:id="@+id/serialNameList"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:divider="#00000000" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:src="#81837E" />
+
+        <EditText
+            android:id="@+id/pieceName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:fontFamily="@font/miao"
+            android:hint="请输入章节名"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/pale_grey"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:src="#81837E" />
+
+        <ImageButton
+            android:id="@+id/confirmNew_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:background="@color/another_white"
+            android:scaleType="fitEnd"
+            android:src="@drawable/rocket_startup_icon" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
