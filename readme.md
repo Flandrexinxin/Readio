@@ -1,15 +1,13 @@
 # Readio
 **0 成果展示**
 <img src="./1.jpg" width="300" align=center/>
-![](1.jpg)
-![](2.jpg)
-![](3.jpg)
-![](4.jpg)
-![](5.jpg)
-![](6.jpg)
-![](7.jpg)
-![](8.jpg)
-
+<img src="./2.jpg" width="300" align=center/>
+<img src="./3.jpg" width="300" align=center/>
+<img src="./4.jpg" width="300" align=center/>
+<img src="./5.jpg" width="300" align=center/>
+<img src="./6.jpg" width="300" align=center/>
+<img src="./7.jpg" width="300" align=center/>
+<img src="./8.jpg" width="300" align=center/>
 **1 项目描述**
 
 **1.1 问题描述**
