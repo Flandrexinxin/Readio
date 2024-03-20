@@ -1,5 +1,6 @@
 # Readio
 **0 成果展示**
+<img src="./1.jpg" width="300" align=center/>
 ![](1.jpg)
 ![](2.jpg)
 ![](3.jpg)
